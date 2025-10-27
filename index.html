@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Anonym (3 Orang)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="username-modal" class="modal">
+        <div class="modal-content">
+            <h2>Masukkan Username</h2>
+            <form id="username-form">
+                <input type="text" id="username-input" placeholder="Nama kamu..." maxlength="20" required>
+                <button type="submit">Masuk</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="chat-container">
+        <header>
+            <h1>Chat Room</h1>
+            <p id="user-display"></p>
+        </header>
+        
+        <main>
+            <ul id="messages"></ul>
+        </main>
+
+        <footer>
+            <form id="message-form">
+                <label for="media-input" class="media-button" title="Upload Gambar/Video">📎</label>
+                <input type="file" id="media-input" accept="image/*,video/*" style="display: none;">
+                
+                <input type="text" id="message-input" placeholder="Ketik pesan..." autocomplete="off" required>
+                <button>Kirim</button>
+            </form>
+            <div id="media-preview-container"></div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
