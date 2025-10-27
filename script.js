@@ -1,5 +1,5 @@
 // --- SETUP KONFIGURASI ---
-const API_URL = 'chat-app-api-puce.vercel.app'; // Ganti dengan URL API Vercel kamu
+const API_URL = 'https://chat-app-api-puce.vercel.app'; // Ganti dengan URL API Vercel kamu
 const CLOUD_NAME = 'drbujyon1'; // Sudah diisi dengan Cloud Name kamu
 const UPLOAD_PRESET = 'chat_preset'; // Pastikan nama ini sama dengan yang di Cloudinary
 
